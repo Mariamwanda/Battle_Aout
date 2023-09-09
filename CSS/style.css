@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+.header {
+  background-image: url("/images/pexels-photo-3775603.webp");
+  background-size: cover;
+  background-color: #333;
+  height: 100vh;
+  color: #fff;
+  text-align: center;
+  padding-top: 45vh;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+.container h2 {
+  font-size: 35px;
+  color: #333;
+}
+h1 {
+  color: white;
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+.header p {
+  color: white;
+  font-size: 25px;
+}
+.btn {
+  display: inline-block;
+  background-color: #ff6600;
+  color: #fff;
+  padding: 20px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+
+  margin: 30px;
+}
+
+.MesGrids {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.MesGrid {
+  flex-basis: 30%;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.MesGrid h2 {
+  color: #333;
+  margin-bottom: 20px;
+  color: #ff6600;
+}
+.MesGrid p {
+  color: #666;
+  margin-top: 10px;
+}
+.banner {
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+  font-size: 20px;
+}
+.banner h2 {
+  background: url("/images/pexels-photo-3775603.webp");
+  background-size: cover;
+  color: white;
+  margin-bottom: 80px;
+  font-size: 30px;
+  overflow: hidden;
+  text-align: center;
+  padding: 30px;
+  border-radius: 20px;
+  background-color: #333;
+}
+.footer p {
+  color: #f4f4f4;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer span {
+  color: #ff6600;
+}
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+  .features {
+    flex-wrap: wrap;
+  }
+  .MesGrid {
+    flex-basis: 45%;
+    margin-bottom: 20px;
+  }
+}
